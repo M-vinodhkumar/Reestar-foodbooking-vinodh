@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    background-color: orange;
+}
+.body{
+    display: block       ;
+}
+
+.title {text-align: center;
+    color: black;
+    font-size: 60px;
+    padding: 20px;
+    display: block;
+
+}
+
+.desc {text-align: center;
+    outline-color: solid black;
+    color:rgb(214, 11, 28);
+    font-size: 30px;
+    padding: 10px;
+    display: block;
+    
+}
+
+.section-one,
+.section-two,
+.section-three,
+.section-four {
+    background-color: white;
+    color: black;
+    border: solid black 2px;
+    margin: 7px;
+    display: inline-block;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.section-one__title1,
+.section-two__title2,
+.section-three__title3,.section-four__title4 {
+    text-align: center;
+    font-weight: bolder;
+}
+.section-one__desc1,.section-two__desc2,.section-three__desc3,.section-four__desc4 
+{
+    text-align: center;
+}
+.section-one__button1,.section-two__button2,.section-three__button3,.section-four__button4{
+    margin-left: 130px;
+    background-color: gansboro;
+    color: black;
+    padding: 2px;
+    border: solid black ;
+}
+.contact-container{
+    background-color: orange;
+    text-align: center;
+}
+.contact-form{
+    padding-left: 650px;
+    font-size: 20px;
+}
+.send{
+    padding: 2px;
+    background-color: red;
+    color: solid black;
+    border: solid black;
+}
